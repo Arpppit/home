@@ -53,15 +53,15 @@ const Home = () => {
                             <div className = 'col-lg-4 order-2 order-lg-2 d-flex flex-column justify-content-center' style= {{backgroundColor:'pink', padding:'10px 50px 50px 50px',borderRadius:'13px'}}>
                     <form>
                     <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Full Name </label>
-    <input type="password" class="form-control" id="exampleInputPassword1"/>
+    <label for="exampleInputName" class="form-label">Full Name </label>
+    <input type="Name" class="form-control" id="exampleInputPassword1"/>
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Phone No.</label>
-    <input type="password" class="form-control" id="exampleInputPassword1"/>
+    <label for="phoneNo" class="form-label">Phone No.</label>
+    <input type="phoneNo " class="form-control required" id="exampleInputPassword1" />
   </div>
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <label for="exampleInputEmail1" class="form-label ">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
   </div>
@@ -75,7 +75,7 @@ const Home = () => {
       />
   </div>
   <div style={{display:'flex'}}>
-  <button type="button" class="btn btn-primary btn-lg btn-block" style={{justifyContent:'center'}} >Create Will</button>
+  <button type="button" class="btn btn-primary btn-lg btn-block" style={{justifyContent:'center' }} >Create Will</button>
   </div>
 </form>
                     </div>

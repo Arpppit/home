@@ -1,11 +1,1 @@
 
-@media screen (max-width :720px) and (min-width : 480px){
-    #header{
-        height:100%;
-
-    }
-    #header .h1{
-        font-size: 2rem;
-        font-weight: 333;
-    }
-}

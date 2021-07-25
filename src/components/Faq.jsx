@@ -49,7 +49,7 @@ export default class App extends Component {
       <div className = 'my-5'>
       <h1 className = 'text-center'> Frequently Asked <strong style={{color:'blue'}}>Questions</strong></h1>
       </div>
-      <div className = 'container-fluid mb-5'>
+      <div className = 'container-fluid mb-5' style = {{borderBottom:'2px solid grey', paddingBottom:'50px'}}>
           <div className = 'row'>
               <div className = 'col-8 mx-auto'>
                   <div className = 'row justify-content-center'>
