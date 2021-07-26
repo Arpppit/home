@@ -33,6 +33,20 @@ function MyVerticallyCenteredModal(props) {
 
 const Home = () => {
 
+  function handleEmailChange(e) {
+    return( this.setState({email: e.target.value}))
+   }
+   function handlePhoneChange(e) {
+     this.setState({phone: e.target.value});
+   }
+   function handleNameChange(e) {
+     this.setState({name: e.target.value});
+   }
+
+   function handleLogin(e) {
+     console.log("EMail: " + this.state.email)
+   }
+
   const [modalShow, setModalShow] = React.useState(false);
     return (
         <>
@@ -53,16 +67,16 @@ const Home = () => {
                             <div className = 'col-lg-4 order-2 order-lg-2 d-flex flex-column justify-content-center' style= {{backgroundColor:'grey', padding:'10px 50px 50px 50px',borderRadius:'13px'}}>
                     <form>
                     <div class="mb-3">
-    <label for="exampleInputName" class="form-label">Full Name </label>
-    <input type="Name" class="form-control" id="exampleInputPassword1"/>
+    <label for="exampleInputName" class="form-label" >Full Name </label>
+    <input type="Name" class="form-control" id="exampleInputPassword1" />
   </div>
   <div class="mb-3">
     <label for="phoneNo" class="form-label">Phone No.</label>
-    <input type="phoneNo " class="form-control required" id="exampleInputPassword1" />
+    <input type="tel " class="form-control required" id="exampleInputPassword1"  />
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label ">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  />
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
   </div>
   

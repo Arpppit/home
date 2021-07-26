@@ -72,4 +72,3 @@ export default class App extends Component {
 }
 
 
-{/* <Faq data={data}/> */}

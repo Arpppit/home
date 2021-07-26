@@ -1,6 +1,5 @@
 import React from 'react'
-import Aest from '../static/aest.jpg'
-import Pointstoremember from './Pointstoremember';
+
 const Info = () => {
     return (
         <>

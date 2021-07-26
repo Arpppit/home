@@ -1,5 +1,5 @@
 import React from 'react'
-import aest from '../static/aest.jpg';
+
 import {MdEmail} from 'react-icons/md';
 import {FiPhoneCall} from 'react-icons/fi'
 import Customersupp from '../static/customersupport.jpg';
