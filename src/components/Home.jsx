@@ -50,7 +50,7 @@ const Home = () => {
                             </h2>
                             </div>
                             
-                            <div className = 'col-lg-4 order-2 order-lg-2 d-flex flex-column justify-content-center' style= {{backgroundColor:'pink', padding:'10px 50px 50px 50px',borderRadius:'13px'}}>
+                            <div className = 'col-lg-4 order-2 order-lg-2 d-flex flex-column justify-content-center' style= {{backgroundColor:'grey', padding:'10px 50px 50px 50px',borderRadius:'13px'}}>
                     <form>
                     <div class="mb-3">
     <label for="exampleInputName" class="form-label">Full Name </label>
