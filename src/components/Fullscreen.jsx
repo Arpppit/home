@@ -5,6 +5,7 @@ import Info from './Info';
 import Faq from './Faq';
 import Contact from './Contact';
 import Disclaimer from './Disclaimer';
+import Pointstoremember from './Pointstoremember';
 import './fullscreen.css';
 const Fullscreen = () => {
     return (
@@ -12,6 +13,7 @@ const Fullscreen = () => {
             <Home/>
             <Service />
             <Info/>
+            <Pointstoremember />
             <Faq/>
             <Contact/>
             <Disclaimer/>

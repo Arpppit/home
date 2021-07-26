@@ -1,5 +1,5 @@
 import React from 'react'
-import aest from '../static/aest.jpg'
+import aest from '../static/notesbig.jpg'
 import {VscDebugBreakpointData} from 'react-icons/vsc';
 const Pointstoremember = () => {
     return (

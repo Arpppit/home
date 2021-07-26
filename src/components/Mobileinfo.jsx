@@ -12,8 +12,8 @@ allowfullscreen style ={{marginTop:'20px', borderRadius:'13px'}}></iframe>
 
 </div>
 </div>
-<div className = 'col-md-12 col-12 mx-auto'>
-                    <h1 style = {{marginTop:'5px', textAlign:'center'}}> Why Make a Will?</h1>
+<div className = 'col-md-12 col-12 mx-auto' style={{borderBottom:'2px solid grey', paddingBottom:'20px'}}>
+                    <h1 style = {{marginTop:'5px', textAlign:'center'}}> Why Make a <strong style={{color:'blue'}}> Will</strong>?</h1>
                     <div className = 'content' style = {{marginTop:'50px'}} >
                         <p style = {{width:'100%',fontSize:'1.3rem', textAlign:'center',justifyContent:'center'}}>A person should make a WILL, as it not only helps to
 distribute his property according to his wishes but also

@@ -6,7 +6,7 @@ const Mobileservice = () => {
     return (
         <div>
              <div className = 'my-5'>
-            <h1 className = 'text-center'> Create Your Online Will in 3 Easy Steps</h1>
+            <h1 className = 'text-center'> Create Your <strong style={{color:'blue'}}>Online Will</strong>  in 3 Easy Steps</h1>
         </div>
         <div className = 'container-fluid mb-5' style={{paddingBottom:'50px',borderBottom:'2px solid grey'}}>
             <div className = 'row'>

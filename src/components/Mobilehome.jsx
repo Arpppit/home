@@ -54,7 +54,7 @@ const Mobilehome = () => {
   </header>
         
   <section class="todo">
-  <div className = 'col-lg-4 order-2 order-lg-2 d-flex flex-column justify-content-center' style= {{backgroundColor:'pink', padding:'10px 50px 50px 50px',borderRadius:'13px'}}>
+  <div className = 'col-lg-4 order-2 order-lg-2 d-flex flex-column justify-content-center' style= {{backgroundColor:'silver', padding:'10px 50px 50px 50px',borderRadius:'13px'}}>
                     <form>
                     <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Full Name </label>
