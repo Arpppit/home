@@ -38,7 +38,7 @@ const Service = () => {
                     <div class="card" style = {{height:'450px'}}>
   <img src={Will} class="card-img-top" alt="..." style = {{transform:'scale(0.5)'}}/>
   <div class="card-body">
-    <h3 class="card-title">Get Your Will on your Email</h3>
+    <h3 class="card-title">Get Your Will on  Email</h3>
     
     
   </div>

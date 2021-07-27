@@ -38,7 +38,7 @@ const Mobileservice = () => {
                     <div class="card" style = {{height:'250px'}}>
   <img src={Email} class="card-img-top" alt="..." style = {{transform:'scale(0.6)'}}/>
   <div class="card-body">
-    <h3 class="card-title" style ={{fontSize:'19px'}}>Get Your Will on your Email</h3>
+    <h3 class="card-title" style ={{fontSize:'19px'}}>Get Your Will on Email</h3>
     
     
   </div>
