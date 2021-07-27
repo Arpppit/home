@@ -3,8 +3,14 @@ import TermsConditions from './TermsConditions';
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 import Index from '../static/index.jpg'
+
+import { Link } from 'react-router-dom';
+
 import './mobile.css';
 function MyVerticallyCenteredModal(props) {
+  
+
+  
   return (
     <Modal
       {...props}
@@ -21,8 +27,6 @@ function MyVerticallyCenteredModal(props) {
         <TermsConditions/>
       </Modal.Body>
       <Modal.Footer>
-      <small>By clicking 'Accept' you are agreeing to our terms and conditions.</small>
-        <Button onClick={props.onHide}>Accept</Button>
       </Modal.Footer>
     </Modal>
   );
@@ -33,6 +37,7 @@ function MyVerticallyCenteredModal(props) {
 
 const Home = () => {
 
+  
   function handleEmailChange(e) {
     return( this.setState({email: e.target.value}))
    }
@@ -68,28 +73,28 @@ const Home = () => {
                     <form>
                     <div class="mb-3">
     <label for="exampleInputName" class="form-label" >Full Name </label>
-    <input type="Name" class="form-control" id="exampleInputPassword1" />
+    <input type="Name" class="form-control " id="exampleInputPassword1"  required/>
   </div>
   <div class="mb-3">
-    <label for="phoneNo" class="form-label">Phone No.</label>
-    <input type="tel " class="form-control required" id="exampleInputPassword1"  />
+    <label for="phoneNo" class="form-label" required='true'>Phone No.</label>
+    <input type="tel " class="form-control " id="exampleInputPassword1" required />
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label ">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  />
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
   </div>
   
   <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-    <label class="form-check-label" for="exampleCheck1"> I Agree to all <a className= 'button' onClick ={() => setModalShow(true)} >Terms and Conditions</a></label>
+    <input type="checkbox" class="form-check-input " id="exampleCheck1"/>
+    <label class="form-check-label" for="exampleCheck1"> I accept all <a className= 'button' onClick ={() => setModalShow(true)} >Terms and Conditions</a></label>
     <MyVerticallyCenteredModal
         show={modalShow}
         onHide={() => setModalShow(false)}
       />
   </div>
   <div style={{display:'flex'}}>
-  <button type="button" class="btn btn-primary btn-lg btn-block" style={{justifyContent:'center' }} >Create Will</button>
+  <Link to='/form' type="button" class="btn btn-primary btn-lg btn-block" style={{justifyContent:'center' }} >Create Will</Link>
   </div>
 </form>
                     </div>

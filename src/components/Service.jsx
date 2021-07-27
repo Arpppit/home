@@ -27,7 +27,7 @@ const Service = () => {
                     <div class="card" style = {{height:'450px'}}>
   <img src={Benificiary} class="card-img-top" alt="..." style = {{transform:'scale(0.6)'}}/>
   <div class="card-body">
-    <h3 class="card-title">Allocate Your Beneficiary</h3>
+    <h3 class="card-title">Allocate your Beneficiary</h3>
     
     
   </div>
@@ -38,7 +38,7 @@ const Service = () => {
                     <div class="card" style = {{height:'450px'}}>
   <img src={Will} class="card-img-top" alt="..." style = {{transform:'scale(0.5)'}}/>
   <div class="card-body">
-    <h3 class="card-title">Get Your Will on  Email</h3>
+    <h3 class="card-title">Get your Will on  Email</h3>
     
     
   </div>
