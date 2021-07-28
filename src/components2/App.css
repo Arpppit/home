@@ -1,0 +1,26 @@
+*{
+    font-family:'Allianz Sans'
+}
+
+
+
+body {
+    @font-face {
+      font-family: 'Allianz Sans';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Allianz Sans'), url('ALSANREG.woff') format('woff');
+      }
+    color:#5353ff;
+    margin: 0;
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  
