@@ -64,9 +64,8 @@ const Home = () => {
                             <div className  ='col-md-8 pt-5 pt-lg-0 order-1 order-lg-1 d-flex justify-content-center flex-column'>
                             <h1> <strong className = 'brand-name'>Will Creator</strong> </h1>
                             <h2 className = 'my-3'>
-                            “Secure your dear ones. Express your wishes so that your </h2>
-                               <h2> loved ones stay protected.”
-                            </h2>
+                            “Secure your dear ones. Express your wishes so that your loved ones stay protected.”</h2>
+                               
                             </div>
                             
                             <div className = 'col-lg-4 order-2 order-lg-2 d-flex flex-column justify-content-center' style= {{backgroundColor:'grey', padding:'10px 50px 50px 50px',borderRadius:'13px'}}>

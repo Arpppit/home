@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 *{
-  font-family: 'Oswald', sans-serif;
-  font-color:#1f1f1f;
-}
+  
+    font-family: "Allianz Sans";
+    font-style: normal;
+    font-weight: normal;
+    src: local('Allianz Sans'), url('ALSANREG.woff') format('woff');
+    font-color:#1f1f1f;
+    }
+    
+  
 
 #header {
   width :100%;

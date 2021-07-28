@@ -1,4 +1,4 @@
-import {Switch, Route, Redirect} from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import React from 'react'
 import MediaQuery from 'react-responsive'
 
@@ -11,22 +11,22 @@ import Mobilescreen from './Mobilescreen';
 
 
 const App = () => {
-    
+
 
     return (
         <>
-        <Switch>
-        <Route path='/form' component={() => { 
-     window.location.href = 'http://blic-will-creation-webapp.s3-website-us-east-1.amazonaws.com/'; 
-     return null;
-}}/>
-        <MediaQuery minWidth={1280}>
-            <Fullscreen/>
-        </MediaQuery>
-        <MediaQuery maxWidth={1000}>
-            <Mobilescreen/>
-        </MediaQuery>
-        </Switch>
+            <Switch>
+                <Route path='/form' component={() => {
+                    window.location.href = 'http://blic-will-creation-webapp.s3-website-us-east-1.amazonaws.com/';
+                    return null;
+                }} />
+                <MediaQuery maxWidth={2000}>
+                    <Fullscreen />
+                </MediaQuery>
+                <MediaQuery maxWidth={1000}>
+                    <Mobilescreen />
+                </MediaQuery>
+            </Switch>
         </>
     )
 }
