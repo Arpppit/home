@@ -6,7 +6,7 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import Fullscreen from './Fullscreen'
 import Mobilescreen from './Mobilescreen';
-
+import Footer from "./Footer";
 
 
 
@@ -26,7 +26,9 @@ const App = () => {
         <MediaQuery maxWidth={1000}>
             <Mobilescreen/>
         </MediaQuery>
+        
         </Switch>
+            <Footer />
         </>
     )
 }
