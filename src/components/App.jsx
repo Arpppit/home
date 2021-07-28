@@ -1,4 +1,4 @@
-import {Switch, Route, Redirect} from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import React from 'react'
 import MediaQuery from 'react-responsive'
 
@@ -11,10 +11,11 @@ import Footer from "./Footer";
 
 
 const App = () => {
-    
+
 
     return (
         <>
+ master
         <Switch>
         <Route path='/form' component={() => { 
      window.location.href = 'http://blic-will-creation-webapp.s3-website-us-east-1.amazonaws.com/'; 
@@ -29,6 +30,20 @@ const App = () => {
         
         </Switch>
             <Footer />
+
+            <Switch>
+                <Route path='/form' component={() => {
+                    window.location.href = 'http://blic-will-creation-webapp.s3-website-us-east-1.amazonaws.com/';
+                    return null;
+                }} />
+                <MediaQuery maxWidth={2000}>
+                    <Fullscreen />
+                </MediaQuery>
+                <MediaQuery maxWidth={1000}>
+                    <Mobilescreen />
+                </MediaQuery>
+            </Switch>
+ master
         </>
     )
 }
